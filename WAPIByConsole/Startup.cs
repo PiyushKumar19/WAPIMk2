@@ -15,15 +15,6 @@ namespace WAPIByConsole
         // Configure method is a very important method as it is responsible for adding middleware to the execution pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //if (env.IsDevelopment())
-            //{
-            //    app.UseDeveloperExceptionPage();
-            //}
-            //app.UseRouting();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllers();
-            //});
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -36,13 +27,5 @@ namespace WAPIByConsole
 
         }
 
-        //private void SomeMethod(IApplicationBuilder app)
-        //{
-        //    app.Use(async (context, next) =>
-        //    {
-        //        await context.Response.WriteAsync("Hello from Piyush Map method middleware. \n");
-        //        await next();
-        //    });
-        //}
     }
 }
