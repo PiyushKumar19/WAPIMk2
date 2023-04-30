@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WAPIMk2.props" />
+</Project>
